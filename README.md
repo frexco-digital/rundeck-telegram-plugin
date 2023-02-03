@@ -18,7 +18,7 @@ Building
 The plugin is written in scala so you need to have [mill](http://www.lihaoyi.com/mill/) installed (minimum version 0.5.1).
 Build the plugin:
 
-    mill plugin.assembly
+    ./mill plugin.assembly
 
 The plugin will be placed in `out/plugin/assembly/dest/out.jar`
 

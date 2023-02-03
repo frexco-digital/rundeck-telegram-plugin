@@ -16,7 +16,7 @@ class TelegramMessenger(botAuthKey: String, val baseUrl: String = "https://api.t
   }
 
   def sendMessage(chat: Long, message: String) = {
-    command("sendMessage", Map("chat_id" -> chat.toString, "text" -> message))
+    command("sendMessage", Map("chat_id" -> chat.toString, "text" -> message, "parse_mode" -> "Markdown"))
   }
   
   def sendDocument(chat: Long, fileBytes: Array[Byte], fileName: String, mimeType: String = "text/plain") = {
