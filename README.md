@@ -2,7 +2,6 @@
 Rundeck Telegram Plugin   ![Build Status](https://travis-ci.org/ajrnz/rundeck-telegram-plugin.svg)
 =======================
 
-
 Sends Rundeck notifications to [Telegram](http://www.telegram.org) a mobile and desktop messaging system.
 
 
